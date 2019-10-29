@@ -1,0 +1,103 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #6F6F6F;
+  font-family: SF Pro text, sans-serif;
+  font-size: 10px;
+  }
+/*Heading*/
+h1 {
+  display: inline-block;
+  font-size: 1.75em;
+  font-weight: 700;
+  line-height: 1.5em;
+  width: 65%;
+  text-align: center;
+  vertical-align: text-bottom;
+}
+h2 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #8C8C8C;
+}
+nav {
+  background-color: #F8F8F8;
+  margin: 0 auto;
+  position: fixed;
+  width: 375px;
+  border-bottom: 1px solid #979797;
+}
+/*Class*/
+.arrow {
+ display: inline-block;
+ text-align: right;
+ width: 10%;
+ padding: 9px 0;
+ vertical-align: top;
+ }
+.back {
+  margin: 22px 5px;
+}
+.bottom{
+  background-color: #F8F8F8;
+  margin: 0 auto;
+  position: fixed;
+  width: 375px;
+  bottom: 0;
+  border-bottom: 1px solid #979797;
+  padding: 5px 0 5px;
+}
+.bus-info {
+  padding-top: 70px;
+  }
+.bus-info h1 {
+   color: #007AFF;
+   width: 50%;
+   text-align: left;
+   margin: auto 20px;
+}
+.bus-info h1.rrt {
+  color: #FF9500;
+}
+.bus-info h1.out {
+  color: #FF3B30;
+}
+.container {
+  background-color: #EFEFF4;
+  margin: 0 auto;
+  width: 375px;
+}
+.eta {
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+  vertical-align: top;
+}
+.eta h2 {
+  font-weight: 600;
+}
+.specs{
+  height: 60px;
+  padding: 10px 0px 0px 10px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #979797;
+  }
+.specs:active {
+  background-color:#EBEBEC;
+ }
+.line {
+display: inline-block;
+width: 75%;
+}
+.tab {
+  display: inline-block;
+  text-align: center;
+  width: 32%;
+}
+.tab:active {
+  background-color:#EBEBEC;
