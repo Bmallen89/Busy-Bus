@@ -10,147 +10,97 @@
   <body>
     <section class="container">
       <nav>
-        <div class="arrow-left back">
-          <img src=".\images\back-arrow.png" alt="">
-          <h1> Washington & State </h1>
+        <img src="\images\status-bar.png" alt="status bar">
+        <div class="back">
+          <i class="fa fa-chevron-left fa-1x" aria-hidden="true"></i>
+          Back
+        </div>
+          <h1> Washington & State</h1>
+        <div class="search" >
+          <i class="fa fa-search fa-1x" aria-hidden="true"></i>
+          Search
+          <i class="fa fa-microphone fa-1x mic" aria-hidden="true" style="float:right; padding-top:2px;"></i>
         </div>
       </nav>
       <section class="bus-info">
         <h1> Eastbound </h1>
-        <div class="specs">
-          <div class="line">
-            <h2>Line 60</h2>
-            <h3>Randolph/Harbor Dr.</h3>
-          </div>
-          <div class="eta">
-            <h2>20</h2>
-            <h3>min</h3>
-          </div>
-          <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-          </div>
-        </div>
-        <div class="specs">
-          <div class="line">
-            <h2>Line 124</h2>
-            <h3>Navy Pier</h3>
-          </div>
-          <div class="eta">
-            <h2>10</h2>
-            <h3>min</h3>
-          </div>
-          <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-          </div>
-        </div>
+        <ul>
+            <li class="line">Line 60</li>
+            <li class="nxt">20 min </li>
+            <li class="arrow"><i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i></li>
+            <li class="dest">Randolph/Harbor Dr.</li>
+            <li class="frq">every 20 min</li>
+        </ul>
+        <ul>
+            <li class="line">Line 124</li>
+            <li class="nxt">10 min</li>
+            <li class="arrow"><i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i></li>
+            <li class="dest">Navy Pier</li>
+            <li class="frq">Every 10 min</li>
+        </ul>
         <h1> Northbound </h1>
-        <div class="specs">
-          <div class="line">
-            <h2>Line 151</h2>
-            <h3>Devon/Clark</h3>
-          </div>
-          <div class="eta">
-            <h2>16</h2>
-            <h3>min</h3>
-          </div>
-          <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-          </div>
-        </div>
+        <ul>
+            <li class="line">Line 151</li>
+            <li class="nxt">16 min </li>
+            <li class="arrow"><i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i></li>
+            <li class="dest">Devon/Clark</li>
+            <li class="frq">every 16 min</li>
+        </ul>
         <h1> Southbound </h1>
-        <div class="specs">
-          <div class="line">
-            <h2>Line J14</h2>
-            <h3>103rd/Stony Island</h3>
-          </div>
-          <div class="eta">
-            <h2>15</h2>
-            <h3>min</h3>
-          </div>
-          <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-          </div>
-        </div>
-        <div class="specs">
-          <div class="line">
-            <h2>Line 124</h2>
-            <h3>Navy Pier</h3>
-          </div>
-          <div class="eta">
-            <h2>10</h2>
-            <h3>min</h3>
-          </div>
-          <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-          </div>
-        </div>
+        <ul>
+            <li class="line">Line J14</li>
+            <li class="nxt">15 min </li>
+            <li class="arrow"><i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i></li>
+            <li class="dest">103rd/Stony Island</li>
+            <li class="frq">every 15 min</li>
+        </ul>
+        <ul>
+            <li class="line">Line 124</li>
+            <li class="nxt">10 min</li>
+            <li class="arrow"><i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i></li>
+            <li class="dest">Navy Pier</li>
+            <li class="frq">Every 10 min</li>
+        </ul>
         <h1 class="rrt"> Reroute </h1>
-        <div class="specs">
-          <div class="line">
-            <h2>Line 6x</h2>
-            <h3>Jackson Park Express</h3>
-          </div>
-          <div class="eta">
-            <h2>N/A</h2>
-            <!--<h3>min</h3> -->
-          </div>
-          <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-          </div>
-        </div>
+        <ul>
+            <li class="line">Line 6x</li>
+            <li class="nxt">N/A</li>
+            <li class="arrow"><i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i></li>
+            <li class="dest">Jackson Park Express</li>
+        </ul>
+
         <h1 class="out"> Out of Service </h1>
-        <div class="specs">
-          <div class="line">
-            <h2>Line 4</h2>
-            <h3>Cottage Grove</h3>
-          </div>
-          <div class="eta">
-            <h2>12:10</h2>
-            <h3>am</h3>
-          </div>
-          <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-          </div>
-        </div>
-        <div class="specs">
-          <div class="line">
-            <h2>Line 20</h2>
-            <h3>Madison</h3>
-          </div>
-          <div class="eta">
-            <h2>12:10</h2>
-            <h3>am</h3>
-          </div>
-          <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-          </div>
-        </div>
-        <div class="specs">
-          <div class="line">
-            <h2>Line 157</h2>
-            <h3>Streeterville/Taylor</h3>
-          </div>
-          <div class="eta">
-            <h2>6:00</h2>
-            <h3>am</h3>
-          </div>
-          <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-          </div>
-        </div>
+        <ul>
+            <li class="line">Line 4</li>
+            <li class="nxt">12:10am</li>
+            <li class="arrow"><i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i></li>
+            <li class="dest">Cottage Grove</li>
+        </ul>
+        <ul>
+            <li class="line">Line 20</li>
+            <li class="nxt">12:10am</li>
+            <li class="arrow"><i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i></li>
+            <li class="dest">Madison</li>
+        </ul>
+        <ul>
+            <li class="line">Line 157</li>
+            <li class="nxt">6:00am</li>
+            <li class="arrow"><i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i></li>
+            <li class="dest">Streeterville/Taylor</li>
+        </ul>
       </section>
       <section class="bottom">
         <div class="tab">
-          <img src="images\home.png" alt="">
-          <h3>Home</h3>
+          <i class="fa fa-home fa-1x"></i>
+          <h2>Home</h2>
         </div>
         <div class="tab">
-          <img src="images\recent.png" alt="">
-          <h3>Recent</h3>
+          <i class="fa fa-clock-o fa-1x"></i>
+          <h2>Recent</h2>
         </div>
-        <div class="tab">
-          <img src="images\star.png" alt="">
-          <h3>Favorites</h3>
+        <div class="tab" id="selected">
+          <i class="fa fa-star fa-1x"></i>
+          <h2 id="selected">Favorites</h2>
         </div>
       </section>
     </section>
